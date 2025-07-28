@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: outbox
+
+spring:
+  datasource: 
+    driver-class-name: org.postgresql.Driver
+    jdbc-url: ${POSTGRES_HOSTNAME}
+    username: ${POSTGRES_USERNAME}
+    password: ${POSTGRES_PASSWORD}
